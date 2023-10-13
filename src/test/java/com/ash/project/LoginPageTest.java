@@ -1,24 +1,25 @@
 package com.ash.project;
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.Keys;
 import org.testng.annotations.Test;
 
-import com.ash.driver.DriverManager;
+import com.ash.PageObjects.HomePage;
+import com.ash.PageObjects.LoginPage;
 
 public class LoginPageTest extends BaseTest {
 
 	@Test
-	void Test1() throws InterruptedException
+	void Test1() throws InterruptedException 
 	{
-		DriverManager.getDriver().findElement(By.name("q")).sendKeys("automation",Keys.ENTER);
+		LoginPage loginpage = new LoginPage();
+		HomePage homePage=loginpage.enterUserName("Admin").enterPassword("admin123").clickLogin();
 		Thread.sleep(3000);
 	}
 	
 	@Test
-	void Test2() throws InterruptedException
+	void Test2() throws InterruptedException 
 	{
-		DriverManager.getDriver().findElement(By.name("q")).sendKeys("tcs",Keys.ENTER);
+		LoginPage loginpage = new LoginPage();
+		HomePage homePage=loginpage.enterUserName("Admin").enterPassword("admin123").clickLogin();
 		Thread.sleep(3000);
 	}
 }

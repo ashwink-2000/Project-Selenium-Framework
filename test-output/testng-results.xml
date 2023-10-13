@@ -2,32 +2,32 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-10-13T10:13:57 IST" name="Suite" finished-at="2023-10-13T10:14:03 IST" duration-ms="6721">
+  <suite started-at="2023-10-13T23:23:02 IST" name="Suite" finished-at="2023-10-13T23:23:13 IST" duration-ms="10299">
     <groups>
     </groups>
-    <test started-at="2023-10-13T10:13:57 IST" name="Test" finished-at="2023-10-13T10:14:03 IST" duration-ms="6721">
+    <test started-at="2023-10-13T23:23:02 IST" name="Test" finished-at="2023-10-13T23:23:13 IST" duration-ms="10299">
       <class name="com.ash.project.LoginPageTest">
-        <test-method is-config="true" signature="initDriver()[pri:0, instance:com.ash.project.LoginPageTest@f736069]" started-at="2023-10-13T10:13:57 IST" name="initDriver" finished-at="2023-10-13T10:14:00 IST" duration-ms="3241" status="PASS">
+        <test-method is-config="true" signature="initDriver()[pri:0, instance:com.ash.project.LoginPageTest@f736069]" started-at="2023-10-13T23:23:02 IST" name="initDriver" finished-at="2023-10-13T23:23:08 IST" duration-ms="5986" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initDriver -->
-        <test-method is-config="true" signature="initDriver()[pri:0, instance:com.ash.project.LoginPageTest@f736069]" started-at="2023-10-13T10:13:57 IST" name="initDriver" finished-at="2023-10-13T10:14:00 IST" duration-ms="3244" status="PASS">
+        <test-method is-config="true" signature="initDriver()[pri:0, instance:com.ash.project.LoginPageTest@f736069]" started-at="2023-10-13T23:23:02 IST" name="initDriver" finished-at="2023-10-13T23:23:08 IST" duration-ms="6203" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initDriver -->
-        <test-method signature="Test2()[pri:0, instance:com.ash.project.LoginPageTest@f736069]" started-at="2023-10-13T10:14:00 IST" name="Test2" finished-at="2023-10-13T10:14:03 IST" duration-ms="3232" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Test2 -->
-        <test-method signature="Test1()[pri:0, instance:com.ash.project.LoginPageTest@f736069]" started-at="2023-10-13T10:14:00 IST" name="Test1" finished-at="2023-10-13T10:14:03 IST" duration-ms="3263" status="PASS">
+        <test-method signature="Test1()[pri:0, instance:com.ash.project.LoginPageTest@f736069]" started-at="2023-10-13T23:23:08 IST" name="Test1" finished-at="2023-10-13T23:23:12 IST" duration-ms="3971" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test1 -->
-        <test-method is-config="true" signature="quitDriver()[pri:0, instance:com.ash.project.LoginPageTest@f736069]" started-at="2023-10-13T10:14:03 IST" name="quitDriver" finished-at="2023-10-13T10:14:03 IST" duration-ms="185" status="PASS">
+        <test-method signature="Test2()[pri:0, instance:com.ash.project.LoginPageTest@f736069]" started-at="2023-10-13T23:23:08 IST" name="Test2" finished-at="2023-10-13T23:23:12 IST" duration-ms="3910" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test2 -->
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:com.ash.project.LoginPageTest@f736069]" started-at="2023-10-13T23:23:12 IST" name="quitDriver" finished-at="2023-10-13T23:23:12 IST" duration-ms="185" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quitDriver -->
-        <test-method is-config="true" signature="quitDriver()[pri:0, instance:com.ash.project.LoginPageTest@f736069]" started-at="2023-10-13T10:14:03 IST" name="quitDriver" finished-at="2023-10-13T10:14:03 IST" duration-ms="186" status="PASS">
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:com.ash.project.LoginPageTest@f736069]" started-at="2023-10-13T23:23:12 IST" name="quitDriver" finished-at="2023-10-13T23:23:13 IST" duration-ms="156" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quitDriver -->
