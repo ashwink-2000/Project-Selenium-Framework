@@ -1,0 +1,45 @@
+15:27:58.242 [main] INFO  c.b.launchers.LaunchMavenCommand - Executing maven archetype command - browserstack-sdk-archetype-integrate
+15:27:58.251 [main] INFO  c.b.launchers.LaunchMavenCommand - The maven properties for launcher are [archetypeVersion=1.2, archetypeGroupId=com.browserstack, archetypeArtifactId=browserstack-sdk-archetype-integrate, BROWSERSTACK_ACCESS_KEY=YOUR_ACCESS_KEY, groupId=com.browserstack, artifactId=java-archetype-integrate, BROWSERSTACK_USERNAME=YOUR_USERNAME, BROWSERSTACK_FRAMEWORK=java, BUILD_NAME=browserstack build, version=1.0, PROJECT_NAME=BrowserStack Sample, BROWSERSTACK_SOURCE=java:eclipse:v1.0.3]
+15:27:58.260 [Worker-25: Launching mavenrun-3b41ece1-8f85-4cc2-9ab2-1a3f8ea71469] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+15:29:04.524 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+15:29:04.524 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+15:29:04.525 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/com.ash.project
+15:29:04.525 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+15:29:04.525 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+15:29:04.526 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/com.ash.project
+15:29:07.741 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+15:29:07.741 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+15:29:07.741 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/com.ash.project
+15:29:07.742 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+15:29:07.742 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+15:29:07.743 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/com.ash.project
+15:29:48.041 [main] INFO  c.b.launchers.LaunchMavenCommand - Executing maven archetype command - browserstack-sdk-archetype-integrate
+15:29:48.050 [main] INFO  c.b.launchers.LaunchMavenCommand - The maven properties for launcher are [archetypeVersion=1.2, archetypeGroupId=com.browserstack, archetypeArtifactId=browserstack-sdk-archetype-integrate, BROWSERSTACK_ACCESS_KEY=XXyenMjVTzpNe5YXnKN8, groupId=com.browserstack, artifactId=java-archetype-integrate, BROWSERSTACK_USERNAME=ashwink_S0br8g, BROWSERSTACK_FRAMEWORK=testng, BUILD_NAME=browserstack build, version=1.0, PROJECT_NAME=BrowserStack Sample, BROWSERSTACK_SOURCE=testng:eclipse:v1.0.3]
+15:29:48.054 [Worker-28: Launching mavenrun-a33d4d76-a049-47fb-9964-69e8d92f36d5] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+15:30:17.326 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+15:30:17.326 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+15:30:17.434 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/com.ash.project
+15:30:17.434 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+15:30:17.434 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+15:30:17.435 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/com.ash.project
+15:38:37.181 [Worker-25: Launching com.ash.project_testng.xml] INFO  c.b.BrowserStackPluginActivator - Existing javaagentArgline (BROWSERSTACK_JAVAAGENT_ARGLINE) in plugin prefs is 
+15:38:37.199 [Worker-25: Launching com.ash.project_testng.xml] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+15:38:37.199 [Worker-25: Launching com.ash.project_testng.xml] INFO  c.b.BrowserStackPluginActivator - The environment variables for the launch configuration are {BROWSERSTACK_EXEC_SOURCE=eclipse/1.0.3}
+15:38:37.210 [Worker-25: Launching com.ash.project_testng.xml] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+15:42:56.250 [Worker-30: Launching com.ash.project_testng.xml] INFO  c.b.BrowserStackPluginActivator - Existing javaagentArgline (BROWSERSTACK_JAVAAGENT_ARGLINE) in plugin prefs is 
+15:42:56.401 [Worker-30: Launching com.ash.project_testng.xml] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+15:42:56.402 [Worker-30: Launching com.ash.project_testng.xml] INFO  c.b.BrowserStackPluginActivator - The environment variables for the launch configuration are {BROWSERSTACK_EXEC_SOURCE=eclipse/1.0.3}
+15:42:56.406 [Worker-30: Launching com.ash.project_testng.xml] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+15:48:10.954 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+15:48:10.954 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+15:48:10.956 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/com.ash.project
+15:48:10.956 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+15:48:10.956 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+15:48:10.957 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/com.ash.project
+15:48:14.529 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+15:48:14.530 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+15:48:14.530 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/com.ash.project
+15:48:14.531 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+15:48:14.531 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+15:48:14.531 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/com.ash.project
+16:03:22.948 [Framework stop - Equinox Container: d801ed40-7608-4ca5-a34d-5edd31445723] INFO  c.b.BrowserStackPluginActivator - Stopping BrowserStack Plugin...

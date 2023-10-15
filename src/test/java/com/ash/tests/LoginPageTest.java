@@ -1,4 +1,4 @@
-package com.ash.project;
+package com.ash.tests;
 
 import org.testng.annotations.Test;
 
@@ -8,7 +8,7 @@ import com.ash.PageObjects.LoginPage;
 public class LoginPageTest extends BaseTest {
 
 	@Test
-	void Test1() throws InterruptedException 
+	void login() throws InterruptedException 
 	{
 		LoginPage loginpage = new LoginPage();
 		HomePage homePage=loginpage.enterUserName("Admin").enterPassword("admin123").clickLogin();
@@ -16,7 +16,7 @@ public class LoginPageTest extends BaseTest {
 	}
 	
 	@Test
-	void Test2() throws InterruptedException 
+	void login2() throws InterruptedException 
 	{
 		LoginPage loginpage = new LoginPage();
 		HomePage homePage=loginpage.enterUserName("Admin").enterPassword("admin123").clickLogin();

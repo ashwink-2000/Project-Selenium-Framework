@@ -1,4 +1,4 @@
-package com.ash.project;
+package com.ash.tests;
 
 public class HomePageTest {
 

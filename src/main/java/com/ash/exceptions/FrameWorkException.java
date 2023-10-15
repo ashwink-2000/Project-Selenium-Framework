@@ -11,4 +11,7 @@ public class FrameWorkException extends RuntimeException{
 	{
 		super(message,cause);
 	}
+	
+
 }
+

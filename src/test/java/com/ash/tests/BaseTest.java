@@ -1,4 +1,4 @@
-package com.ash.project;
+package com.ash.tests;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 
