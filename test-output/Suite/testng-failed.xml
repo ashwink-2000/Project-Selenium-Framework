@@ -4,11 +4,13 @@
   <listeners>
     <listener class-name="com.ash.listeners.ITestAndSuiteListener"/>
     <listener class-name="com.ash.listeners.IMethodInterceptorListener"/>
+    <listener class-name="com.ash.listeners.IAnnotationTransformerListener"/>
   </listeners>
   <test thread-count="5" parallel="methods" name="Test(failed)">
     <classes>
       <class name="com.ash.tests.LoginPageTest">
         <methods>
+          <include name="login" invocation-numbers="0"/>
           <include name="initDriver"/>
           <include name="login2" invocation-numbers="0"/>
           <include name="quitDriver"/>

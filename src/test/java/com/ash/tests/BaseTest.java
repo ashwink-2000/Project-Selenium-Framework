@@ -1,6 +1,4 @@
 package com.ash.tests;
-import java.util.Map;
-
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 
@@ -11,9 +9,8 @@ public class BaseTest {
 	{}
 	
 	@BeforeMethod
-    protected void initDriver(Object[] data) 
+    protected void initDriver() 
 	{
-		Map<String,String> map = (Map<String,String>)data[0];
 		Driver.initDriver();
 	}
 

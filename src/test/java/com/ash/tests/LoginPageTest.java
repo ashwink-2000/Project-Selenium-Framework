@@ -6,6 +6,7 @@ import java.util.Map;
 import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
+import org.testng.asserts.SoftAssert;
 
 import com.ash.PageObjects.HomePage;
 import com.ash.PageObjects.LoginPage;
@@ -17,16 +18,18 @@ public class LoginPageTest extends BaseTest {
 	void login(HashMap<String,String> data) throws InterruptedException 
 	{
 		LoginPage loginpage = new LoginPage();
-		HomePage homePage=loginpage.enterUserName(data.get("username")).enterPassword(data.get("password")).clickLogin();
-		Thread.sleep(3000);
+		String title=loginpage.enterUserName(data.get("username")).enterPassword(data.get("password")).clickLogin()
+			.clickProfile().clickLogout().getTitle();
+		Assert.assertEquals(title,"OrangeHRM");
 	}
 
 	@Test(dataProvider="loginpagedata",dataProviderClass=DataProviderUtility.class)
-	void login2(HashMap<String,String> data) throws InterruptedException 
+	void login2(HashMap<String,String> data) throws InterruptedException  
 	{
 		LoginPage loginpage = new LoginPage();
-		HomePage homePage=loginpage.enterUserName(data.get("username")).enterPassword(data.get("password")).clickLogin();
-		Assert.assertEquals(false, true);
-		Thread.sleep(3000);
+		String title=loginpage.enterUserName(data.get("username")).enterPassword(data.get("password")).clickLogin()
+			.clickProfile().clickLogout().getTitle();
+		Assert.assertEquals(title,"OrangeHRM");
+
 	}
 }

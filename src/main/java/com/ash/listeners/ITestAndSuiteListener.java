@@ -43,6 +43,7 @@ public class ITestAndSuiteListener implements ITestListener,ISuiteListener {
 	@Override
 	public void onTestSkipped(ITestResult result) {
 		ExtentLogger.skip(result.getMethod().getMethodName()+" is skipped");
+		ExtentLogger.skip(result.getMethod().getMethodName()+" is failed",true);
 	}
 
 }
