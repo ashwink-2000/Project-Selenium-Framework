@@ -20,17 +20,17 @@ public final class FrameworkConstants {
 	//Excel sheet name value
 	private static final String EXCELSHEETNAME = "testdatafile";
 	//Enter Excel sheet path 
-	private static final String EXCELPATH = TESTRESOURCESPATH+"exceldatasheet/"+EXCELSHEETNAME+".xlsx";
+	private static final String EXCELPATH =TESTRESOURCESPATH+"exceldatasheet/"+EXCELSHEETNAME+".xlsx";
 	//Enter excel sheet name value
-	private static final String RUNMANGERSHEET = "runmanager";
+	private static final String RUNMANGERSHEET ="runmanager";
 	private static final String DATASHEET = "testdata";
 	
 	//Enter extent Report path 
-	private static final String EXTENTREPORTFOLDER=TESTRESOURCESPATH+"extent-reports/";
+	private static final String EXTENTREPORTFOLDER=System.getProperty("user.dir")+"/extent-reports/";
 	private static String extentReportPath="";
 
 
-	private String createExtentReportPath()
+	private static String createExtentReportPath()
 	{
 		if(ConfigurationUtility.getValue(ConfigurationEnum.OVERRIDEEXTENTREPORTS).equalsIgnoreCase("no"))
 			return EXTENTREPORTFOLDER+System.currentTimeMillis()+"index.html";
@@ -38,7 +38,7 @@ public final class FrameworkConstants {
 			return EXTENTREPORTFOLDER+"index.html";
 	}
 
-	public String getExtentReportPath()
+	public static String getExtentReportPath()
 	{
 		if(extentReportPath.isEmpty())
 		{extentReportPath=createExtentReportPath();}
@@ -68,5 +68,4 @@ public final class FrameworkConstants {
 	{
 		return EXPLICITWAITTIME;
 	}
-
 }

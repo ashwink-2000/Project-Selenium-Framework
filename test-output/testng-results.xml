@@ -2,34 +2,34 @@
 <testng-results ignored="0" total="2" passed="1" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-10-23T20:06:12 IST" name="Suite" finished-at="2023-10-23T20:06:26 IST" duration-ms="13785">
+  <suite started-at="2023-10-23T22:23:21 IST" name="Suite" finished-at="2023-10-23T22:23:37 IST" duration-ms="16610">
     <groups>
     </groups>
-    <test started-at="2023-10-23T20:06:12 IST" name="Test" finished-at="2023-10-23T20:06:26 IST" duration-ms="13785">
+    <test started-at="2023-10-23T22:23:21 IST" name="Test" finished-at="2023-10-23T22:23:37 IST" duration-ms="16610">
       <class name="com.ash.tests.LoginPageTest">
-        <test-method is-config="true" signature="initDriver([Ljava.lang.Object;)[pri:0, instance:com.ash.tests.LoginPageTest@56cdfb3b]" started-at="2023-10-23T20:06:13 IST" name="initDriver" finished-at="2023-10-23T20:06:21 IST" duration-ms="7820" status="PASS">
+        <test-method is-config="true" signature="initDriver([Ljava.lang.Object;)[pri:0, instance:com.ash.tests.LoginPageTest@56cdfb3b]" started-at="2023-10-23T22:23:21 IST" name="initDriver" finished-at="2023-10-23T22:23:27 IST" duration-ms="5241" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[Ljava.lang.Object;@540b0448]]>
+                <![CDATA[[Ljava.lang.Object;@537c8c7e]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initDriver -->
-        <test-method is-config="true" signature="initDriver([Ljava.lang.Object;)[pri:0, instance:com.ash.tests.LoginPageTest@56cdfb3b]" started-at="2023-10-23T20:06:13 IST" name="initDriver" finished-at="2023-10-23T20:06:20 IST" duration-ms="7418" status="PASS">
+        <test-method is-config="true" signature="initDriver([Ljava.lang.Object;)[pri:0, instance:com.ash.tests.LoginPageTest@56cdfb3b]" started-at="2023-10-23T22:23:21 IST" name="initDriver" finished-at="2023-10-23T22:23:33 IST" duration-ms="11384" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[Ljava.lang.Object;@50a691d3]]>
+                <![CDATA[[Ljava.lang.Object;@7308ffff]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initDriver -->
-        <test-method signature="login2(java.util.HashMap)[pri:0, instance:com.ash.tests.LoginPageTest@56cdfb3b]" started-at="2023-10-23T20:06:20 IST" name="login2" data-provider="loginpagedata" finished-at="2023-10-23T20:06:22 IST" duration-ms="1914" status="FAIL">
+        <test-method signature="login2(java.util.HashMap)[pri:0, instance:com.ash.tests.LoginPageTest@56cdfb3b]" started-at="2023-10-23T22:23:27 IST" name="login2" data-provider="loginpagedata" finished-at="2023-10-23T22:23:27 IST" duration-ms="876" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -71,7 +71,11 @@ at java.base/java.lang.Thread.run(Thread.java:833)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login2 -->
-        <test-method signature="login(java.util.HashMap)[pri:0, instance:com.ash.tests.LoginPageTest@56cdfb3b]" started-at="2023-10-23T20:06:21 IST" name="login" data-provider="loginpagedata" finished-at="2023-10-23T20:06:26 IST" duration-ms="5110" status="PASS">
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:com.ash.tests.LoginPageTest@56cdfb3b]" started-at="2023-10-23T22:23:29 IST" name="quitDriver" finished-at="2023-10-23T22:23:29 IST" duration-ms="164" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+        <test-method signature="login(java.util.HashMap)[pri:0, instance:com.ash.tests.LoginPageTest@56cdfb3b]" started-at="2023-10-23T22:23:33 IST" name="login" data-provider="loginpagedata" finished-at="2023-10-23T22:23:37 IST" duration-ms="4352" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -82,11 +86,7 @@ at java.base/java.lang.Thread.run(Thread.java:833)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method is-config="true" signature="quitDriver()[pri:0, instance:com.ash.tests.LoginPageTest@56cdfb3b]" started-at="2023-10-23T20:06:23 IST" name="quitDriver" finished-at="2023-10-23T20:06:24 IST" duration-ms="213" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- quitDriver -->
-        <test-method is-config="true" signature="quitDriver()[pri:0, instance:com.ash.tests.LoginPageTest@56cdfb3b]" started-at="2023-10-23T20:06:26 IST" name="quitDriver" finished-at="2023-10-23T20:06:26 IST" duration-ms="154" status="PASS">
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:com.ash.tests.LoginPageTest@56cdfb3b]" started-at="2023-10-23T22:23:37 IST" name="quitDriver" finished-at="2023-10-23T22:23:37 IST" duration-ms="124" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quitDriver -->
