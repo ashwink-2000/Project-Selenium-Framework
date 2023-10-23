@@ -1,5 +1,6 @@
 package com.ash.exceptions;
 
+@SuppressWarnings("serial")
 public class FrameWorkException extends RuntimeException{
 
 	public FrameWorkException(String message)

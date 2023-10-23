@@ -3,7 +3,8 @@
 
 <suite name="Suite">
 <listeners>
-<listener class-name="com.ash.listeners.IMethodInterceptorListener"></listener>
+	<listener class-name="com.ash.listeners.ITestAndSuiteListener"/>
+	<listener class-name="com.ash.listeners.IMethodInterceptorListener"/>
 </listeners>
   <test thread-count="2" name="Test" parallel="methods">
     <classes>

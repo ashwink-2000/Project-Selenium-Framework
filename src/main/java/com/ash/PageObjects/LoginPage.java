@@ -12,13 +12,13 @@ public final class LoginPage extends BasePage {
 	
 	public LoginPage enterUserName(String userName)
 	{
-		EnterText(textboxUsername,userName,WaitStrategyEnum.PRESENCE);
+		enterText(textboxUsername,userName,"userName",WaitStrategyEnum.PRESENCE);
 		return this;
 	}
 	
 	public LoginPage enterPassword(String password)
 	{
-		EnterText(textboxPassword,password,WaitStrategyEnum.PRESENCE);
+		enterText(textboxPassword,password,"password",WaitStrategyEnum.PRESENCE);
 		return this;
 	}
 	

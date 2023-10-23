@@ -9,6 +9,7 @@ import java.util.Properties;
 
 import com.ash.enums.ConfigurationEnum;
 import com.ash.exceptions.PropertyFileUsageException;
+import com.ash.frameworkconstants.FrameworkConstants;
 public final class ConfigurationUtility {
 
 	private static Properties properties =new Properties();
@@ -16,7 +17,7 @@ public final class ConfigurationUtility {
 	
 	static 
 	{
-		try(FileInputStream file = new FileInputStream(System.getProperty("user.dir")+"/src/test/resources/configuration.properties"))
+		try(FileInputStream file = new FileInputStream(FrameworkConstants.configurationFilePath()))
 		{
 			properties.load(file);
 			for(Entry<Object, Object> entry :properties.entrySet())

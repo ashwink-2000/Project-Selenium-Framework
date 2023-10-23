@@ -1,5 +1,6 @@
 package com.ash.exceptions;
 
+@SuppressWarnings("serial")
 public class PropertyFileUsageException extends FrameWorkException{
 	
 	public PropertyFileUsageException(String message)

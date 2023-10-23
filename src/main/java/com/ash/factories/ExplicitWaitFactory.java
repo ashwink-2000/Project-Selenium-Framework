@@ -1,7 +1,5 @@
 package com.ash.factories;
 
-import java.time.Duration;
-
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -9,6 +7,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import com.ash.driver.DriverManager;
 import com.ash.enums.WaitStrategyEnum;
+import com.ash.frameworkconstants.FrameworkConstants;
 
 public final class ExplicitWaitFactory {
 
@@ -22,12 +21,12 @@ public final class ExplicitWaitFactory {
 		WebElement element=null;
 		if(WaitStrategyEnum.VISIBILITY.equals(waitStrategy))
 		{
-			element= new WebDriverWait(DriverManager.getDriver(),Duration.ofSeconds(10))
+			element= new WebDriverWait(DriverManager.getDriver(),FrameworkConstants.getExplicitWaitTime())
 					.until(ExpectedConditions.visibilityOfElementLocated(by));
 		}
 		else if(WaitStrategyEnum.PRESENCE.equals(waitStrategy)) 
 		{
-			element= new WebDriverWait(DriverManager.getDriver(),Duration.ofSeconds(10))
+			element= new WebDriverWait(DriverManager.getDriver(),FrameworkConstants.getExplicitWaitTime())
 					.until(ExpectedConditions.presenceOfElementLocated(by));
 		}
 		else if(WaitStrategyEnum.NONE.equals(waitStrategy)) 
