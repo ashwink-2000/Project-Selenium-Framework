@@ -29,6 +29,11 @@ public final class ExplicitWaitFactory {
 			element= new WebDriverWait(DriverManager.getDriver(),FrameworkConstants.getExplicitWaitTime())
 					.until(ExpectedConditions.presenceOfElementLocated(by));
 		}
+		else if(WaitStrategyEnum.CLICKABLE.equals(waitStrategy)) 
+		{
+			element= new WebDriverWait(DriverManager.getDriver(),FrameworkConstants.getExplicitWaitTime())
+					.until(ExpectedConditions.elementToBeClickable(by));
+		}
 		else if(WaitStrategyEnum.NONE.equals(waitStrategy)) 
 		{
 			element=DriverManager.getDriver().findElement(by);

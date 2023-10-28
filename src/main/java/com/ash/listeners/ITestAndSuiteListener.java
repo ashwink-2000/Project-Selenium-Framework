@@ -7,6 +7,7 @@ import org.testng.ISuiteListener;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
 
+import com.ash.annotations.FrameworkAnnotation;
 import com.ash.extentreports.ExtentLogger;
 import com.ash.extentreports.ExtentReportSetup;
 
@@ -26,8 +27,12 @@ public class ITestAndSuiteListener implements ITestListener,ISuiteListener {
 	@Override
 	public void onTestStart(ITestResult result) {
 		ExtentReportSetup.createTest(result.getMethod().getMethodName());
+		ExtentReportSetup.addAuthors(result.getMethod().getConstructorOrMethod().getMethod().getAnnotation(FrameworkAnnotation.class)
+		.author());
+		ExtentReportSetup.addCategories(result.getMethod().getConstructorOrMethod().getMethod().getAnnotation(FrameworkAnnotation.class)
+		.category());
 	}
-
+	
 	@Override
 	public void onTestSuccess(ITestResult result) {
 		ExtentLogger.pass(result.getMethod().getMethodName()+" is Passed");
@@ -42,8 +47,8 @@ public class ITestAndSuiteListener implements ITestListener,ISuiteListener {
 
 	@Override
 	public void onTestSkipped(ITestResult result) {
-		ExtentLogger.skip(result.getMethod().getMethodName()+" is skipped");
 		ExtentLogger.skip(result.getMethod().getMethodName()+" is failed",true);
+		ExtentLogger.skip(Arrays.toString(result.getThrowable().getStackTrace()));
 	}
 
 }

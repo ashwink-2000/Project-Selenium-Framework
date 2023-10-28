@@ -16,7 +16,7 @@ public final class DataProviderUtility {
 
 	}
 
-	@DataProvider(name="loginpagedata",parallel=false)
+	@DataProvider(name="loginpagedata",parallel=true)
 	public static Object[] getData(Method m)
 	{
 		String testName = m.getName();

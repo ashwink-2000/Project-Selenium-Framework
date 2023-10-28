@@ -12,7 +12,7 @@ public class DriverManager {
 		return dr.get();
 	}
 	
-	public static void SetDriver(WebDriver WebDriverRef)
+	public static void setDriver(WebDriver WebDriverRef)
 	{
 		dr.set(WebDriverRef);
 	}
